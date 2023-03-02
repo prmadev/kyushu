@@ -20,6 +20,7 @@ name = "kyushu"
 
 
 [dependencies]
+tokio = { version = "1.26.0", features = ["rt", "macros", "rt-multi-thread"] }
 
 [profile.release]
 strip = true      # Automatically strip symbols from the binary.
