@@ -34,7 +34,3 @@
     clippy::self_named_constructors
 )]
 #![cfg_attr(docsrs, feature(doc_cfg))]
-
-fn main() {
-    println!("Hello, world!");
-}
