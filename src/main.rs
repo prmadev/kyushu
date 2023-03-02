@@ -4,7 +4,6 @@
 //! But it should be awesome when it reaches a  stable core.
 //!
 //! `kyushu` is proudly standing on the shoulders of [`RedMaple`](https://crates.io/crates/redmaple) library.
-//!
 
 #![deny(missing_docs)]
 #![deny(clippy::expect_used)]
@@ -35,6 +34,7 @@
 )]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
-fn main() {
+#[tokio::main]
+async fn main() {
     println!("Hello, world!");
 }
