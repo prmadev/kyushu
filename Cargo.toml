@@ -1,0 +1,17 @@
+[package]
+name = "kyushu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Amir Alesheikh <amirhossein.alehseikh@gmail.com>"]
+description = "kyushu is a journaling application which let you deliberate on events and your journey through them"
+homepage = "https://github.com/amirography/kyushu"
+repository = "https://github.com/amirography/kyushu"
+license = "Apache-2.0"
+readme = "README.md"
+categories = ["command-line-utilities"]
+keywords = ["journaling", "events"]
+
+
+[dependencies]
+thiserror = "1.0.38"
+tokio = "1.26.0"
