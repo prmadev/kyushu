@@ -1,3 +1,7 @@
+# kyushu is now moved to a different repository
+
+you can find kyushu [`here`](https://github.com/amirography/soapberry/tree/main/crates/kyushu).
+
 # Kyushu
 
 <!-- cargo-rdme start -->
